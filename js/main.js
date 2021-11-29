@@ -8,6 +8,7 @@ const expReg_abc = /[a-zA-ÿ\u00f1\u00d1çÇ]+/g; //LOS CORCHETES SIRVEN PARA QU
 //const expReg_abc = /Manolo/g       SOLO SI COINCIDE CON MANOLO
 
 //QUIERO BUSCAR LAS COINCIDENCIAS DE UNA CADENA
-const textoAbc = "Manolo Pepe Paco".match(expReg_abc);
+var textoAbc = "zVuDa".match(expReg_abc);
+textoAbc = textoAbc.join("")
 console.log(textoAbc);
 alert(textoAbc);
