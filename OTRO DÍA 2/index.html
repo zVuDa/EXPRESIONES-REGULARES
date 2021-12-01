@@ -6,9 +6,13 @@
     <title>Título de la página</title>
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="./css/style.css">
+    <script defer type="module" src="./js/main.js"></script><!--CON DEFER CARGAMOS EL JS EN DIFERIDO. PARA USAR MODULOS  SE DEBE DECLARAR TYPE MODULE
+    EN EL LINK DE SCRIPT. SIEMPRE SE DEBE DE TESTEAR EN UN LIVE SERVER, PORQUE DESDE UN FICHERO NO FUNCIONARÁN LOS PROTOCOLOS-->
 </head>
 <body>
     <input id="enlace" type="button" value="CLICKAME">
-    <script src="./js/main.js"></script>
+    <div class="muestracon"><span class="datos">DATOS</span>
+        <div class="muestra"></div>
+    </div>
 </body>
 </html>
